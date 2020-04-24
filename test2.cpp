@@ -1,7 +1,7 @@
 // CPP program to implement hashing with chaining 
 #include<bits/stdc++.h> 
 using namespace std; 
-  
+
 class Hash 
 { 
     int BUCKET;    // No. of buckets 
@@ -15,13 +15,13 @@ public:
     int add(int x, int &collisions); 
 
     // verify if a key exists into hash table
-    int containsItem(int x, int &collisions); 
+    int contains(int x, int &collisions); 
   
     // deletes a key from hash table 
     void remove(int key, int &collisions); 
   
       // deletes a key from hash table 
-    int worstcase(); 
+    int worst_case(); 
 
     // deletes a key from hash table 
     int size(); 
@@ -44,7 +44,7 @@ Hash h(13);
 
 int Hash::add(int key, int &collisions) 
 { 
-    if(h.containsItem(key, collisions)==0){
+    if(h.contains(key, collisions)==0){
       int index = hashFunction(key); 
       table[index].push_front(key);
       return 1; 
@@ -67,7 +67,7 @@ int Hash::size()
     return k;
 } 
 
-int Hash::worstcase() 
+int Hash::worst_case() 
 { 
     // find the key in the table
     int j, k;
@@ -84,7 +84,7 @@ int Hash::worstcase()
     return pior;
 } 
 
-int Hash::containsItem(int key, int &collisions) 
+int Hash::contains(int key, int &collisions) 
 { 
     // get the hash index of key 
     int index = hashFunction(key); 
@@ -147,7 +147,7 @@ int main()
   h.displayHash(); 
   
   cout << "existe o numero 14? " <<
-  h.containsItem(14, collisions);
+  h.contains(14, collisions);
   cout << endl; 
 
   cout << "size: " <<
@@ -155,7 +155,7 @@ int main()
   cout << endl; 
 
   cout << "worst case: " <<
-  h.worstcase();
+  h.worst_case();
 
   cout << endl; 
   cout << "collisions: ";

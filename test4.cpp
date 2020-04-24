@@ -10,10 +10,18 @@ void myFunction(int &collisions) {
 }
 
 int main() {
-  int a = 2;
-  myFunction(a);
-  cout << a;
-  
+    string a = "sarah";
+    cout << a;
+    cout << endl;
+    int b;
+    int count = 0;
+    b = a.length();
+    for(int i=0; i<b; i++){
+        count += int(a[i]); 
+    }
+    cout << count;
+
+
   return 0;
 }
 
