@@ -4,6 +4,8 @@
 // TO UNDERSTAND WHAT EACH FUNCTION MUST DO
 
 Hash::Hash(int tablesize, int (*hf) (std::string) ) {
+    _table.resize(tablesize);
+    _hash_func = hf;
  // CONSTRUTOR 
 }
 
@@ -13,6 +15,11 @@ int Hash::add(std::string str, int &collisions) {
     // para executar os testes, mesmo falhando, eh preciso compilar
     // assim, eh preciso retornar algum valor.
     // ** o aluno deve implementar a funcao completa e retornar o valor correto **
+    if(contains(str, collisions)==0){
+      int index = hash(str); 
+      table[index].push_front(str);
+      return 1; 
+    }
     return 0;
     
 }//add

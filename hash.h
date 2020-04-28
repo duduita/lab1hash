@@ -21,7 +21,6 @@ public:
     /// construct hashtable with size and hashfunction
     Hash(int tablesize,int (*hf) (std::string) ) ;
     
-    
     /**
      * \brief return the hash of a string (a integer from 0 to tablesize-1)
      * \par THIS FUNCTION COULD BE PRIVATE, BUT WE WANT IT TO BE TRANSPARENT
@@ -70,11 +69,10 @@ private:
     
     /// nice teacher already tells you which stl classes to use
     std::vector<std::forward_list<std::string>> _table; /// vector of [single linked lists of [strings]]
-    // and std::string is a specialized std::vector for char (it is not just std::vector<char>, it is a specialized subclass with specific string operations).
+    // and std::string is a specialized std::vector for char (it is not     just std::vector<char>, it is a specialized subclass with specific string operations).
     // but it still could be said that _table is: 
     // vector of [single linked lists of [vector of char] ]
     
-
 };//class
 
 

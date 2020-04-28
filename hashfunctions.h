@@ -7,6 +7,4 @@
 int hashdiv(std::string str, int m ) ;
 int hashdiv29(std::string str) ;
 
-
-
 #endif

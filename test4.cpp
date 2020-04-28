@@ -1,26 +1,18 @@
 #include <iostream>
+#include<bits/stdc++.h> 
 
 using namespace std;
 
 
 void myFunction(int &collisions) {
-  collisions++;
-  cout << collisions;
 
 }
 
 int main() {
-    string a = "sarah";
-    cout << a;
-    cout << endl;
-    int b;
-    int count = 0;
-    b = a.length();
-    for(int i=0; i<b; i++){
-        count += int(a[i]); 
-    }
-    cout << count;
-
+  std::vector<std::forward_list<std::string>> _table; /// vector of [single linked lists of [strings]]
+  _table [5];
+  int (*_hash_func) (std::string); /// function pointer
+  
 
   return 0;
 }
