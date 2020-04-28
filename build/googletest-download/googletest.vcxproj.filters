@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Arquivos\Comp\CES-12\lab1hash200313_2221\build\googletest-download\CMakeFiles\e0fc30d757c4864f0d3103f5be5f4481\googletest-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Arquivos\Comp\CES-12\lab1hash200313_2221\build\googletest-download\CMakeFiles\e0fc30d757c4864f0d3103f5be5f4481\googletest-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Arquivos\Comp\CES-12\lab1hash200313_2221\build\googletest-download\CMakeFiles\e0fc30d757c4864f0d3103f5be5f4481\googletest-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Arquivos\Comp\CES-12\lab1hash200313_2221\build\googletest-download\CMakeFiles\e0fc30d757c4864f0d3103f5be5f4481\googletest-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Arquivos\Comp\CES-12\lab1hash200313_2221\build\googletest-download\CMakeFiles\e0fc30d757c4864f0d3103f5be5f4481\googletest-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Arquivos\Comp\CES-12\lab1hash200313_2221\build\googletest-download\CMakeFiles\e0fc30d757c4864f0d3103f5be5f4481\googletest-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Arquivos\Comp\CES-12\lab1hash200313_2221\build\googletest-download\CMakeFiles\e0fc30d757c4864f0d3103f5be5f4481\googletest-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Arquivos\Comp\CES-12\lab1hash200313_2221\build\googletest-download\CMakeFiles\e0fc30d757c4864f0d3103f5be5f4481\googletest-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Arquivos\Comp\CES-12\lab1hash200313_2221\build\googletest-download\CMakeFiles\0f77082aaebdd37c63bf19d0d597d3f6\googletest-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Arquivos\Comp\CES-12\lab1hash200313_2221\build\googletest-download\CMakeFiles\40385713f49f02feb172ea1fe954d8e7\googletest.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Arquivos\Comp\CES-12\lab1hash200313_2221\build\googletest-download\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Arquivos\Comp\CES-12\lab1hash200313_2221\build\googletest-download\CMakeFiles\googletest" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4491FDC1-CEE1-3AF7-B86A-DBFAF99E49B5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

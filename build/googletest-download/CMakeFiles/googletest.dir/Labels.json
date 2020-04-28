@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/Arquivos/Comp/CES-12/lab1hash200313_2221/build/googletest-download/CMakeFiles/googletest"
+		},
+		{
+			"file" : "D:/Arquivos/Comp/CES-12/lab1hash200313_2221/build/googletest-download/CMakeFiles/40385713f49f02feb172ea1fe954d8e7/googletest.rule"
+		},
+		{
+			"file" : "D:/Arquivos/Comp/CES-12/lab1hash200313_2221/build/googletest-download/CMakeFiles/0f77082aaebdd37c63bf19d0d597d3f6/googletest-complete.rule"
+		},
+		{
+			"file" : "D:/Arquivos/Comp/CES-12/lab1hash200313_2221/build/googletest-download/CMakeFiles/e0fc30d757c4864f0d3103f5be5f4481/googletest-install.rule"
+		},
+		{
+			"file" : "D:/Arquivos/Comp/CES-12/lab1hash200313_2221/build/googletest-download/CMakeFiles/e0fc30d757c4864f0d3103f5be5f4481/googletest-mkdir.rule"
+		},
+		{
+			"file" : "D:/Arquivos/Comp/CES-12/lab1hash200313_2221/build/googletest-download/CMakeFiles/e0fc30d757c4864f0d3103f5be5f4481/googletest-download.rule"
+		},
+		{
+			"file" : "D:/Arquivos/Comp/CES-12/lab1hash200313_2221/build/googletest-download/CMakeFiles/e0fc30d757c4864f0d3103f5be5f4481/googletest-update.rule"
+		},
+		{
+			"file" : "D:/Arquivos/Comp/CES-12/lab1hash200313_2221/build/googletest-download/CMakeFiles/e0fc30d757c4864f0d3103f5be5f4481/googletest-patch.rule"
+		},
+		{
+			"file" : "D:/Arquivos/Comp/CES-12/lab1hash200313_2221/build/googletest-download/CMakeFiles/e0fc30d757c4864f0d3103f5be5f4481/googletest-configure.rule"
+		},
+		{
+			"file" : "D:/Arquivos/Comp/CES-12/lab1hash200313_2221/build/googletest-download/CMakeFiles/e0fc30d757c4864f0d3103f5be5f4481/googletest-build.rule"
+		},
+		{
+			"file" : "D:/Arquivos/Comp/CES-12/lab1hash200313_2221/build/googletest-download/CMakeFiles/e0fc30d757c4864f0d3103f5be5f4481/googletest-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"googletest"
+		],
+		"name" : "googletest"
+	}
+}
